@@ -23,7 +23,7 @@ export const HeroArea = () => {
         <div className="cta">
           <h2>Modern Meals</h2>
           <p>Discover the best food & drinks in Pune</p>
-          <div className="searchBar" onClick={() => navigate("/seach")}>
+          <div className="searchBar" onClick={() => navigate("/search")}>
             <ion-icon className="searchIcon" name="search-outline"></ion-icon>
             <p>Search for resturant, cuisine or a dish</p>
           </div>

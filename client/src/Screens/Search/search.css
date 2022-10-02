@@ -1,0 +1,60 @@
+.searchScreenMain{
+    padding: 20px;
+}
+
+.searchScreenMainHeader > ion-icon{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.searchMain{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.searchArea{
+    width: 50%;
+}
+
+.searchBox{
+    width: 100%;
+    position: relative;
+}
+
+.searchBox > input{
+    width: 100%;
+    padding: 16px 10px;
+    border: 1px solid #5e5e5e6b;
+    outline: none;
+    border-radius: 5px;
+    font-family: poppins;
+    font-size: 17px;
+}
+
+.searchBox > ion-icon{
+    font-size: 26px;
+    font-weight: 600;
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    color: #5e5e5e;
+}
+
+.searchPageCategoryArea{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.allCat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allCat > img{
+    width: 95px;
+    cursor: pointer;
+}
