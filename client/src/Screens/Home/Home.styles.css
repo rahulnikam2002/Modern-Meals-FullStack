@@ -11,7 +11,7 @@
   background-image: url("../../imgs/pexels-chan-walrus-958545.jpg");
   background-position: center;
   background-size: cover;
-  height: 50vh;
+  height: 55vh;
   color: #fff;
 }
 
@@ -81,4 +81,27 @@
     color: #5e5e5e;
     font-size: 22px;
     margin-right: 10px;
+}
+
+/* #171a29 */
+
+.adBg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #171a29;
+    padding: 40px 0;
+    margin: 2px 0;
+}
+
+.bannerImg{
+    width: 270px;
+    margin: 0px 20px;
+    transition: transform .5s cubic-bezier(.215,.61,.355,1);
+    transform: translateZ(0);
+}
+
+.bannerImg:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
