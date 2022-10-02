@@ -1,0 +1,84 @@
+.logo > .logoLink {
+  font-size: 21px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.heroArea {
+  width: 100%;
+  background-image: url("../../imgs/pexels-chan-walrus-958545.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  color: #fff;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.57);
+    height: 100%;
+    padding: 15px 0;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menuItems {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.menuItems > .link {
+  margin: 0px 15px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.menuItems > p {
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+
+.cta{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cta > h2{
+    font-size:55px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.cta > p{
+    font-size:25px;
+}
+
+.searchBar{
+    background-color: white;
+    width: 30%;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: #5e5e5e;
+    display: flex;
+    align-items: center;
+
+}
+
+.searchBar > ion-icon{
+    color: #5e5e5e;
+    font-size: 22px;
+    margin-right: 10px;
+}
